@@ -1,0 +1,33 @@
+#编程语言和开发工具
+ANSI C++
+Visual Studio 2017 Cummunity
+
+#MFC的使用
+使用标准的Windows库
+
+#编程规范
+注释简明扼要
+
+#需求分析
+选课
+
+#实现原理
+1. 建立三个stl库的list容器，数据操作时通过int类型的id相互关联
+2. 教务员为control类，学生和教师继承interface类，部分差异在派生类中定义
+3. 单例模式，手动释放
+
+#技术难点
+迭代器繁多
+
+#体会
+1. 该实验单例模式的局限性
+2. 使用inline函数避免重定义
+3. 多个函数合体，传参选择响应功能，减少代码量
+4. 善用algorithm的find_if和find函数，find_if的第三个参数自己定义用于判断的类
+5. 限定编号位数，输入优先检查位数节省时间
+6. 注意erase后iter的变化
+7. 文件读取直接getline，避免与>>运算符混用时一些情况下存在的问题
+8. http://blog.csdn.net/shenyulv/article/details/6699836
+
+#异常处理
+基本考虑到
